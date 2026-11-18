@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background: lightgray;
+    padding: 20px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: darkblue;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+}
+
+.status-offen {
+    color: orange;
+    font-weight: bold;
+}
+
+.status-erledigt {
+    color: green;
+    font-weight: bold;
+}
+
+
+.formular {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.formular input,
+.formular textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.formular button {
+    background: darkblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.formular button:hover {
+    background: navy;
+}
+
+.fehler {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+.aktionen {
+    white-space: nowrap;
+}
+
+.aktionen form {
+    display: inline;
+}
+
+.btn {
+    display: inline-block;
+    background: #2c3e50;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #1a252f;
+}
+
+.btn-loeschen {
+    background: #c0392b;
+}
+
+.btn-loeschen:hover {
+    background: #922b21;
+}
+
+td:last-child {
+    white-space: nowrap;
+}
